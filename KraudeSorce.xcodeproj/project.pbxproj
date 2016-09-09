@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A0D470D1D834ECD00BAAF7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0D470C1D834ECD00BAAF7D /* AppDelegate.swift */; };
+		2A0D470F1D834ECD00BAAF7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0D470E1D834ECD00BAAF7D /* ViewController.swift */; };
+		2A0D47121D834ECD00BAAF7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A0D47101D834ECD00BAAF7D /* Main.storyboard */; };
+		2A0D47141D834ECE00BAAF7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A0D47131D834ECE00BAAF7D /* Assets.xcassets */; };
+		2A0D47171D834ECE00BAAF7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A0D47151D834ECE00BAAF7D /* LaunchScreen.storyboard */; };
+		2A0D47221D834ECE00BAAF7D /* KraudeSorceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0D47211D834ECE00BAAF7D /* KraudeSorceTests.swift */; };
+		2A0D472D1D834ECE00BAAF7D /* KraudeSorceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0D472C1D834ECE00BAAF7D /* KraudeSorceUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A0D471E1D834ECE00BAAF7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A0D47011D834ECD00BAAF7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A0D47081D834ECD00BAAF7D;
+			remoteInfo = KraudeSorce;
+		};
+		2A0D47291D834ECE00BAAF7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A0D47011D834ECD00BAAF7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A0D47081D834ECD00BAAF7D;
+			remoteInfo = KraudeSorce;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A0D47091D834ECD00BAAF7D /* KraudeSorce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KraudeSorce.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A0D470C1D834ECD00BAAF7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A0D470E1D834ECD00BAAF7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A0D47111D834ECD00BAAF7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A0D47131D834ECE00BAAF7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A0D47161D834ECE00BAAF7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A0D47181D834ECE00BAAF7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A0D471D1D834ECE00BAAF7D /* KraudeSorceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KraudeSorceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A0D47211D834ECE00BAAF7D /* KraudeSorceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KraudeSorceTests.swift; sourceTree = "<group>"; };
+		2A0D47231D834ECE00BAAF7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A0D47281D834ECE00BAAF7D /* KraudeSorceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KraudeSorceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A0D472C1D834ECE00BAAF7D /* KraudeSorceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KraudeSorceUITests.swift; sourceTree = "<group>"; };
+		2A0D472E1D834ECE00BAAF7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A0D47061D834ECD00BAAF7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A0D471A1D834ECE00BAAF7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A0D47251D834ECE00BAAF7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A0D47001D834ECD00BAAF7D = {
+			isa = PBXGroup;
+			children = (
+				2A0D470B1D834ECD00BAAF7D /* KraudeSorce */,
+				2A0D47201D834ECE00BAAF7D /* KraudeSorceTests */,
+				2A0D472B1D834ECE00BAAF7D /* KraudeSorceUITests */,
+				2A0D470A1D834ECD00BAAF7D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A0D470A1D834ECD00BAAF7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A0D47091D834ECD00BAAF7D /* KraudeSorce.app */,
+				2A0D471D1D834ECE00BAAF7D /* KraudeSorceTests.xctest */,
+				2A0D47281D834ECE00BAAF7D /* KraudeSorceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A0D470B1D834ECD00BAAF7D /* KraudeSorce */ = {
+			isa = PBXGroup;
+			children = (
+				2A0D470C1D834ECD00BAAF7D /* AppDelegate.swift */,
+				2A0D470E1D834ECD00BAAF7D /* ViewController.swift */,
+				2A0D47101D834ECD00BAAF7D /* Main.storyboard */,
+				2A0D47131D834ECE00BAAF7D /* Assets.xcassets */,
+				2A0D47151D834ECE00BAAF7D /* LaunchScreen.storyboard */,
+				2A0D47181D834ECE00BAAF7D /* Info.plist */,
+			);
+			path = KraudeSorce;
+			sourceTree = "<group>";
+		};
+		2A0D47201D834ECE00BAAF7D /* KraudeSorceTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A0D47211D834ECE00BAAF7D /* KraudeSorceTests.swift */,
+				2A0D47231D834ECE00BAAF7D /* Info.plist */,
+			);
+			path = KraudeSorceTests;
+			sourceTree = "<group>";
+		};
+		2A0D472B1D834ECE00BAAF7D /* KraudeSorceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A0D472C1D834ECE00BAAF7D /* KraudeSorceUITests.swift */,
+				2A0D472E1D834ECE00BAAF7D /* Info.plist */,
+			);
+			path = KraudeSorceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A0D47081D834ECD00BAAF7D /* KraudeSorce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A0D47311D834ECE00BAAF7D /* Build configuration list for PBXNativeTarget "KraudeSorce" */;
+			buildPhases = (
+				2A0D47051D834ECD00BAAF7D /* Sources */,
+				2A0D47061D834ECD00BAAF7D /* Frameworks */,
+				2A0D47071D834ECD00BAAF7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KraudeSorce;
+			productName = KraudeSorce;
+			productReference = 2A0D47091D834ECD00BAAF7D /* KraudeSorce.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A0D471C1D834ECE00BAAF7D /* KraudeSorceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A0D47341D834ECE00BAAF7D /* Build configuration list for PBXNativeTarget "KraudeSorceTests" */;
+			buildPhases = (
+				2A0D47191D834ECE00BAAF7D /* Sources */,
+				2A0D471A1D834ECE00BAAF7D /* Frameworks */,
+				2A0D471B1D834ECE00BAAF7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A0D471F1D834ECE00BAAF7D /* PBXTargetDependency */,
+			);
+			name = KraudeSorceTests;
+			productName = KraudeSorceTests;
+			productReference = 2A0D471D1D834ECE00BAAF7D /* KraudeSorceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A0D47271D834ECE00BAAF7D /* KraudeSorceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A0D47371D834ECE00BAAF7D /* Build configuration list for PBXNativeTarget "KraudeSorceUITests" */;
+			buildPhases = (
+				2A0D47241D834ECE00BAAF7D /* Sources */,
+				2A0D47251D834ECE00BAAF7D /* Frameworks */,
+				2A0D47261D834ECE00BAAF7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A0D472A1D834ECE00BAAF7D /* PBXTargetDependency */,
+			);
+			name = KraudeSorceUITests;
+			productName = KraudeSorceUITests;
+			productReference = 2A0D47281D834ECE00BAAF7D /* KraudeSorceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A0D47011D834ECD00BAAF7D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Yash Dalal";
+				TargetAttributes = {
+					2A0D47081D834ECD00BAAF7D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					2A0D471C1D834ECE00BAAF7D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2A0D47081D834ECD00BAAF7D;
+					};
+					2A0D47271D834ECE00BAAF7D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2A0D47081D834ECD00BAAF7D;
+					};
+				};
+			};
+			buildConfigurationList = 2A0D47041D834ECD00BAAF7D /* Build configuration list for PBXProject "KraudeSorce" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A0D47001D834ECD00BAAF7D;
+			productRefGroup = 2A0D470A1D834ECD00BAAF7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A0D47081D834ECD00BAAF7D /* KraudeSorce */,
+				2A0D471C1D834ECE00BAAF7D /* KraudeSorceTests */,
+				2A0D47271D834ECE00BAAF7D /* KraudeSorceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A0D47071D834ECD00BAAF7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0D47171D834ECE00BAAF7D /* LaunchScreen.storyboard in Resources */,
+				2A0D47141D834ECE00BAAF7D /* Assets.xcassets in Resources */,
+				2A0D47121D834ECD00BAAF7D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A0D471B1D834ECE00BAAF7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A0D47261D834ECE00BAAF7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A0D47051D834ECD00BAAF7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0D470F1D834ECD00BAAF7D /* ViewController.swift in Sources */,
+				2A0D470D1D834ECD00BAAF7D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A0D47191D834ECE00BAAF7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0D47221D834ECE00BAAF7D /* KraudeSorceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A0D47241D834ECE00BAAF7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0D472D1D834ECE00BAAF7D /* KraudeSorceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A0D471F1D834ECE00BAAF7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A0D47081D834ECD00BAAF7D /* KraudeSorce */;
+			targetProxy = 2A0D471E1D834ECE00BAAF7D /* PBXContainerItemProxy */;
+		};
+		2A0D472A1D834ECE00BAAF7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A0D47081D834ECD00BAAF7D /* KraudeSorce */;
+			targetProxy = 2A0D47291D834ECE00BAAF7D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A0D47101D834ECD00BAAF7D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A0D47111D834ECD00BAAF7D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A0D47151D834ECE00BAAF7D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A0D47161D834ECE00BAAF7D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A0D472F1D834ECE00BAAF7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A0D47301D834ECE00BAAF7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A0D47321D834ECE00BAAF7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KraudeSorce/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yashdalal.KraudeSorce;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2A0D47331D834ECE00BAAF7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KraudeSorce/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yashdalal.KraudeSorce;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2A0D47351D834ECE00BAAF7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KraudeSorceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yashdalal.KraudeSorceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KraudeSorce.app/KraudeSorce";
+			};
+			name = Debug;
+		};
+		2A0D47361D834ECE00BAAF7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KraudeSorceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yashdalal.KraudeSorceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KraudeSorce.app/KraudeSorce";
+			};
+			name = Release;
+		};
+		2A0D47381D834ECE00BAAF7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KraudeSorceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yashdalal.KraudeSorceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KraudeSorce;
+			};
+			name = Debug;
+		};
+		2A0D47391D834ECE00BAAF7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KraudeSorceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yashdalal.KraudeSorceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KraudeSorce;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A0D47041D834ECD00BAAF7D /* Build configuration list for PBXProject "KraudeSorce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A0D472F1D834ECE00BAAF7D /* Debug */,
+				2A0D47301D834ECE00BAAF7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A0D47311D834ECE00BAAF7D /* Build configuration list for PBXNativeTarget "KraudeSorce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A0D47321D834ECE00BAAF7D /* Debug */,
+				2A0D47331D834ECE00BAAF7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2A0D47341D834ECE00BAAF7D /* Build configuration list for PBXNativeTarget "KraudeSorceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A0D47351D834ECE00BAAF7D /* Debug */,
+				2A0D47361D834ECE00BAAF7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2A0D47371D834ECE00BAAF7D /* Build configuration list for PBXNativeTarget "KraudeSorceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A0D47381D834ECE00BAAF7D /* Debug */,
+				2A0D47391D834ECE00BAAF7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A0D47011D834ECD00BAAF7D /* Project object */;
+}
