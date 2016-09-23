@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DD1DCC5C55295F931690328 /* Pods_KraudeSorce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51FD5150D814A69526C5592C /* Pods_KraudeSorce.framework */; };
+		143A12CB32F7D9C5FB846AB9 /* Pods_KraudeSorceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7369E6A895517EEEDB18EC98 /* Pods_KraudeSorceTests.framework */; };
 		2A0D470D1D834ECD00BAAF7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0D470C1D834ECD00BAAF7D /* AppDelegate.swift */; };
 		2A0D470F1D834ECD00BAAF7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0D470E1D834ECD00BAAF7D /* ViewController.swift */; };
 		2A0D47121D834ECD00BAAF7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A0D47101D834ECD00BAAF7D /* Main.storyboard */; };
@@ -14,6 +16,11 @@
 		2A0D47171D834ECE00BAAF7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A0D47151D834ECE00BAAF7D /* LaunchScreen.storyboard */; };
 		2A0D47221D834ECE00BAAF7D /* KraudeSorceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0D47211D834ECE00BAAF7D /* KraudeSorceTests.swift */; };
 		2A0D472D1D834ECE00BAAF7D /* KraudeSorceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0D472C1D834ECE00BAAF7D /* KraudeSorceUITests.swift */; };
+		2A5CF3081D910497004744A4 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5CF3071D910497004744A4 /* HomePageViewController.swift */; };
+		2A5CF30B1D919F33004744A4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5CF30A1D919F33004744A4 /* SignUpViewController.swift */; };
+		2A903EFD1D88F199001E7A4E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A903EFC1D88F199001E7A4E /* GoogleService-Info.plist */; };
+		2A93520D1D8B4BA700539F25 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A93520C1D8B4BA700539F25 /* LoginViewController.swift */; };
+		E204C1F70DFDC58A42796A6D /* Pods_KraudeSorceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FFE69A0DCFFAA85B7F2DC64 /* Pods_KraudeSorceUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1853F60032C8CEFFF6056BDA /* Pods-KraudeSorce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KraudeSorce.release.xcconfig"; path = "Pods/Target Support Files/Pods-KraudeSorce/Pods-KraudeSorce.release.xcconfig"; sourceTree = "<group>"; };
+		22E14FE02290C7F1FA6A1EDF /* Pods-KraudeSorceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KraudeSorceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KraudeSorceTests/Pods-KraudeSorceTests.release.xcconfig"; sourceTree = "<group>"; };
+		2411F50AB45CDEC05F7F4795 /* Pods-KraudeSorce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KraudeSorce.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KraudeSorce/Pods-KraudeSorce.debug.xcconfig"; sourceTree = "<group>"; };
 		2A0D47091D834ECD00BAAF7D /* KraudeSorce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KraudeSorce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A0D470C1D834ECD00BAAF7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A0D470E1D834ECD00BAAF7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,18 @@
 		2A0D47281D834ECE00BAAF7D /* KraudeSorceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KraudeSorceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A0D472C1D834ECE00BAAF7D /* KraudeSorceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KraudeSorceUITests.swift; sourceTree = "<group>"; };
 		2A0D472E1D834ECE00BAAF7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A5CF3051D90DEE6004744A4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2A5CF3071D910497004744A4 /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		2A5CF3091D910A45004744A4 /* KraudeSorce.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = KraudeSorce.entitlements; sourceTree = "<group>"; };
+		2A5CF30A1D919F33004744A4 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		2A903EFC1D88F199001E7A4E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2A93520C1D8B4BA700539F25 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2DAF1E7768F8EF82FFD01879 /* Pods-KraudeSorceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KraudeSorceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KraudeSorceTests/Pods-KraudeSorceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2EBCE5FE55EEBAB846690A8C /* Pods-KraudeSorceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KraudeSorceUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KraudeSorceUITests/Pods-KraudeSorceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		51FD5150D814A69526C5592C /* Pods_KraudeSorce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KraudeSorce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7369E6A895517EEEDB18EC98 /* Pods_KraudeSorceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KraudeSorceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FFE69A0DCFFAA85B7F2DC64 /* Pods_KraudeSorceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KraudeSorceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2CBA6CF5684F64A1399E76D /* Pods-KraudeSorceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KraudeSorceUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KraudeSorceUITests/Pods-KraudeSorceUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DD1DCC5C55295F931690328 /* Pods_KraudeSorce.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				143A12CB32F7D9C5FB846AB9 /* Pods_KraudeSorceTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +92,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E204C1F70DFDC58A42796A6D /* Pods_KraudeSorceUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B6631A38E5FEA0192056BE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2411F50AB45CDEC05F7F4795 /* Pods-KraudeSorce.debug.xcconfig */,
+				1853F60032C8CEFFF6056BDA /* Pods-KraudeSorce.release.xcconfig */,
+				2DAF1E7768F8EF82FFD01879 /* Pods-KraudeSorceTests.debug.xcconfig */,
+				22E14FE02290C7F1FA6A1EDF /* Pods-KraudeSorceTests.release.xcconfig */,
+				2EBCE5FE55EEBAB846690A8C /* Pods-KraudeSorceUITests.debug.xcconfig */,
+				F2CBA6CF5684F64A1399E76D /* Pods-KraudeSorceUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		2A0D47001D834ECD00BAAF7D = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				2A0D47201D834ECE00BAAF7D /* KraudeSorceTests */,
 				2A0D472B1D834ECE00BAAF7D /* KraudeSorceUITests */,
 				2A0D470A1D834ECD00BAAF7D /* Products */,
+				0B6631A38E5FEA0192056BE4 /* Pods */,
+				82261EA128A6B92A627F6704 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +137,17 @@
 		2A0D470B1D834ECD00BAAF7D /* KraudeSorce */ = {
 			isa = PBXGroup;
 			children = (
+				2A5CF3091D910A45004744A4 /* KraudeSorce.entitlements */,
+				2A903EFC1D88F199001E7A4E /* GoogleService-Info.plist */,
 				2A0D470C1D834ECD00BAAF7D /* AppDelegate.swift */,
 				2A0D470E1D834ECD00BAAF7D /* ViewController.swift */,
+				2A93520C1D8B4BA700539F25 /* LoginViewController.swift */,
 				2A0D47101D834ECD00BAAF7D /* Main.storyboard */,
 				2A0D47131D834ECE00BAAF7D /* Assets.xcassets */,
 				2A0D47151D834ECE00BAAF7D /* LaunchScreen.storyboard */,
 				2A0D47181D834ECE00BAAF7D /* Info.plist */,
+				2A5CF3071D910497004744A4 /* HomePageViewController.swift */,
+				2A5CF30A1D919F33004744A4 /* SignUpViewController.swift */,
 			);
 			path = KraudeSorce;
 			sourceTree = "<group>";
@@ -125,6 +170,17 @@
 			path = KraudeSorceUITests;
 			sourceTree = "<group>";
 		};
+		82261EA128A6B92A627F6704 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A5CF3051D90DEE6004744A4 /* CoreLocation.framework */,
+				51FD5150D814A69526C5592C /* Pods_KraudeSorce.framework */,
+				7369E6A895517EEEDB18EC98 /* Pods_KraudeSorceTests.framework */,
+				7FFE69A0DCFFAA85B7F2DC64 /* Pods_KraudeSorceUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A0D47311D834ECE00BAAF7D /* Build configuration list for PBXNativeTarget "KraudeSorce" */;
 			buildPhases = (
+				408AA20A23A1F886CEF4366F /* [CP] Check Pods Manifest.lock */,
 				2A0D47051D834ECD00BAAF7D /* Sources */,
 				2A0D47061D834ECD00BAAF7D /* Frameworks */,
 				2A0D47071D834ECD00BAAF7D /* Resources */,
+				D6EBDC0B7A4ACE98E44869A7 /* [CP] Embed Pods Frameworks */,
+				EEE60302811BF1DB750D96D6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +208,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A0D47341D834ECE00BAAF7D /* Build configuration list for PBXNativeTarget "KraudeSorceTests" */;
 			buildPhases = (
+				B5D1E61A4F888A319326D90F /* [CP] Check Pods Manifest.lock */,
 				2A0D47191D834ECE00BAAF7D /* Sources */,
 				2A0D471A1D834ECE00BAAF7D /* Frameworks */,
 				2A0D471B1D834ECE00BAAF7D /* Resources */,
+				DBE7E4108BBD9D2F88297ECF /* [CP] Embed Pods Frameworks */,
+				CA6F9011478083F738C72EAE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +229,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A0D47371D834ECE00BAAF7D /* Build configuration list for PBXNativeTarget "KraudeSorceUITests" */;
 			buildPhases = (
+				3488D37F02F15C990B429DF1 /* [CP] Check Pods Manifest.lock */,
 				2A0D47241D834ECE00BAAF7D /* Sources */,
 				2A0D47251D834ECE00BAAF7D /* Frameworks */,
 				2A0D47261D834ECE00BAAF7D /* Resources */,
+				FCF79DC51B0F4FDAB42FCEA4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,18 +252,27 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Yash Dalal";
 				TargetAttributes = {
 					2A0D47081D834ECD00BAAF7D = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = R5ZJKN7GW2;
+						LastSwiftMigration = 0800;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					2A0D471C1D834ECE00BAAF7D = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 2A0D47081D834ECD00BAAF7D;
 					};
 					2A0D47271D834ECE00BAAF7D = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 2A0D47081D834ECD00BAAF7D;
 					};
 				};
@@ -230,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A0D47171D834ECE00BAAF7D /* LaunchScreen.storyboard in Resources */,
+				2A903EFD1D88F199001E7A4E /* GoogleService-Info.plist in Resources */,
 				2A0D47141D834ECE00BAAF7D /* Assets.xcassets in Resources */,
 				2A0D47121D834ECD00BAAF7D /* Main.storyboard in Resources */,
 			);
@@ -251,13 +325,139 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3488D37F02F15C990B429DF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		408AA20A23A1F886CEF4366F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B5D1E61A4F888A319326D90F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CA6F9011478083F738C72EAE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KraudeSorceTests/Pods-KraudeSorceTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6EBDC0B7A4ACE98E44869A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KraudeSorce/Pods-KraudeSorce-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBE7E4108BBD9D2F88297ECF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KraudeSorceTests/Pods-KraudeSorceTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEE60302811BF1DB750D96D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KraudeSorce/Pods-KraudeSorce-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCF79DC51B0F4FDAB42FCEA4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KraudeSorceUITests/Pods-KraudeSorceUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2A0D47051D834ECD00BAAF7D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A5CF3081D910497004744A4 /* HomePageViewController.swift in Sources */,
+				2A93520D1D8B4BA700539F25 /* LoginViewController.swift in Sources */,
 				2A0D470F1D834ECD00BAAF7D /* ViewController.swift in Sources */,
 				2A0D470D1D834ECD00BAAF7D /* AppDelegate.swift in Sources */,
+				2A5CF30B1D919F33004744A4 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,8 +526,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -371,8 +573,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -391,74 +595,89 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		2A0D47321D834ECE00BAAF7D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2411F50AB45CDEC05F7F4795 /* Pods-KraudeSorce.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KraudeSorce/KraudeSorce.entitlements;
 				INFOPLIST_FILE = KraudeSorce/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yashdalal.KraudeSorce;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		2A0D47331D834ECE00BAAF7D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1853F60032C8CEFFF6056BDA /* Pods-KraudeSorce.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KraudeSorce/KraudeSorce.entitlements;
 				INFOPLIST_FILE = KraudeSorce/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yashdalal.KraudeSorce;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		2A0D47351D834ECE00BAAF7D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DAF1E7768F8EF82FFD01879 /* Pods-KraudeSorceTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = KraudeSorceTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yashdalal.KraudeSorceTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KraudeSorce.app/KraudeSorce";
 			};
 			name = Debug;
 		};
 		2A0D47361D834ECE00BAAF7D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22E14FE02290C7F1FA6A1EDF /* Pods-KraudeSorceTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = KraudeSorceTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yashdalal.KraudeSorceTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KraudeSorce.app/KraudeSorce";
 			};
 			name = Release;
 		};
 		2A0D47381D834ECE00BAAF7D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EBCE5FE55EEBAB846690A8C /* Pods-KraudeSorceUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = KraudeSorceUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yashdalal.KraudeSorceUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = KraudeSorce;
 			};
 			name = Debug;
 		};
 		2A0D47391D834ECE00BAAF7D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2CBA6CF5684F64A1399E76D /* Pods-KraudeSorceUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = KraudeSorceUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yashdalal.KraudeSorceUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = KraudeSorce;
 			};
 			name = Release;
@@ -482,6 +701,7 @@
 				2A0D47331D834ECE00BAAF7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A0D47341D834ECE00BAAF7D /* Build configuration list for PBXNativeTarget "KraudeSorceTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +710,7 @@
 				2A0D47361D834ECE00BAAF7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A0D47371D834ECE00BAAF7D /* Build configuration list for PBXNativeTarget "KraudeSorceUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +719,7 @@
 				2A0D47391D834ECE00BAAF7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
