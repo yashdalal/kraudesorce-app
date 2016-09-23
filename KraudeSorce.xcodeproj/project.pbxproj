@@ -20,6 +20,7 @@
 		2A5CF30B1D919F33004744A4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5CF30A1D919F33004744A4 /* SignUpViewController.swift */; };
 		2A903EFD1D88F199001E7A4E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A903EFC1D88F199001E7A4E /* GoogleService-Info.plist */; };
 		2A93520D1D8B4BA700539F25 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A93520C1D8B4BA700539F25 /* LoginViewController.swift */; };
+		2AD93D491D95C36E00140E6E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD93D481D95C36E00140E6E /* User.swift */; };
 		E204C1F70DFDC58A42796A6D /* Pods_KraudeSorceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FFE69A0DCFFAA85B7F2DC64 /* Pods_KraudeSorceUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,7 @@
 		2A5CF30A1D919F33004744A4 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		2A903EFC1D88F199001E7A4E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2A93520C1D8B4BA700539F25 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2AD93D481D95C36E00140E6E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		2DAF1E7768F8EF82FFD01879 /* Pods-KraudeSorceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KraudeSorceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KraudeSorceTests/Pods-KraudeSorceTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2EBCE5FE55EEBAB846690A8C /* Pods-KraudeSorceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KraudeSorceUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KraudeSorceUITests/Pods-KraudeSorceUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		51FD5150D814A69526C5592C /* Pods_KraudeSorce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KraudeSorce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,6 +150,7 @@
 				2A0D47181D834ECE00BAAF7D /* Info.plist */,
 				2A5CF3071D910497004744A4 /* HomePageViewController.swift */,
 				2A5CF30A1D919F33004744A4 /* SignUpViewController.swift */,
+				2AD93D481D95C36E00140E6E /* User.swift */,
 			);
 			path = KraudeSorce;
 			sourceTree = "<group>";
@@ -260,8 +263,11 @@
 						DevelopmentTeam = R5ZJKN7GW2;
 						LastSwiftMigration = 0800;
 						SystemCapabilities = {
-							com.apple.Keychain = {
+							com.apple.BackgroundModes = {
 								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 0;
 							};
 						};
 					};
@@ -455,6 +461,7 @@
 			files = (
 				2A5CF3081D910497004744A4 /* HomePageViewController.swift in Sources */,
 				2A93520D1D8B4BA700539F25 /* LoginViewController.swift in Sources */,
+				2AD93D491D95C36E00140E6E /* User.swift in Sources */,
 				2A0D470F1D834ECD00BAAF7D /* ViewController.swift in Sources */,
 				2A0D470D1D834ECD00BAAF7D /* AppDelegate.swift in Sources */,
 				2A5CF30B1D919F33004744A4 /* SignUpViewController.swift in Sources */,
@@ -605,7 +612,6 @@
 			baseConfigurationReference = 2411F50AB45CDEC05F7F4795 /* Pods-KraudeSorce.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = KraudeSorce/KraudeSorce.entitlements;
 				INFOPLIST_FILE = KraudeSorce/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yashdalal.KraudeSorce;
@@ -619,7 +625,6 @@
 			baseConfigurationReference = 1853F60032C8CEFFF6056BDA /* Pods-KraudeSorce.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = KraudeSorce/KraudeSorce.entitlements;
 				INFOPLIST_FILE = KraudeSorce/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yashdalal.KraudeSorce;
