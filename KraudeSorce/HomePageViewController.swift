@@ -61,6 +61,13 @@ class HomePageViewController: UIViewController, CLLocationManagerDelegate {
     
     func locationManager(manager: CLLocationManager, didExitRegion region: CLRegion) {
         self.view.backgroundColor = UIColor.redColor()
+        
+        ref.runTransactionBlock({ (currentData: FIRMutableData) -> FIRTransactionResult in
+            var count = currentData.value as! Int
+            count += 1
+            currentData = count
+            return FIRTransactionResult.successWithValue(currentData)
+        })
         ref.setValue(0)
     }
     

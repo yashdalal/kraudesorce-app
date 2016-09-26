@@ -1,0 +1,834 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0625FB15EE4D1F5F3B1F9FF6B724BC0D /* Pods-KraudeSorceTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8140D7BB2E45DB546DA39FB85105152 /* Pods-KraudeSorceTests-dummy.m */; };
+		170DEBA0805779F6F2EA714C1C451F5C /* Pods-KraudeSorce-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93FB3861D99CD6616A99D2C3DAC8500C /* Pods-KraudeSorce-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47386AC2EE32BDBA8F5C2FBEA16DBDD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		6CB2D8C5F2FD67C42EB31586D800C6CE /* Pods-KraudeSorceUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5FF870D4C5A392648806FAEF4DA42C /* Pods-KraudeSorceUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		790D5BF0E6BBF6B3D4623C6DAF9CF438 /* Pods-KraudeSorce-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D27127EAC56BADB750F9EB4EE2BA4B4F /* Pods-KraudeSorce-dummy.m */; };
+		8894A54822E7CD350BBC1A318C4E4A76 /* Pods-KraudeSorceTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCFE427941EFFDAAF53DB1F92353D64A /* Pods-KraudeSorceTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A375C2D51959CF6B80E2E0F3C84CF7A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		F215AC807B87C6BC37D2A0F9E2F69B0A /* Pods-KraudeSorceUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 160437CB827370FA55DBE63BDD632003 /* Pods-KraudeSorceUITests-dummy.m */; };
+		FE548D411855DA0F7B8E1D41C391C3A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03CF5B5D03AD8008F5B0CE5F205ED84D /* Pods-KraudeSorceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KraudeSorceUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0AD1568E830A0DBD6CA6DCD4EEB8261D /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		160437CB827370FA55DBE63BDD632003 /* Pods-KraudeSorceUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KraudeSorceUITests-dummy.m"; sourceTree = "<group>"; };
+		34C2AC09590661271517AC3FBCE1A8CF /* Pods-KraudeSorceTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KraudeSorceTests.modulemap"; sourceTree = "<group>"; };
+		37E7AEDDB7925A9E39351B87EB4A27CE /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		38F943FF5B41EE77F6C520CFC87FA49B /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Analytics/Sources/Firebase.h; sourceTree = "<group>"; };
+		391933BC928204135091054CD6630F32 /* Pods-KraudeSorce-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KraudeSorce-acknowledgements.plist"; sourceTree = "<group>"; };
+		3F3591C778989014C56506C4EDDFA5BC /* Pods-KraudeSorceUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KraudeSorceUITests-frameworks.sh"; sourceTree = "<group>"; };
+		436F8DCC5AF3C7285EF5258E722953E4 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		446521F3D664ADF253EA8F532C87F622 /* Pods-KraudeSorceUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KraudeSorceUITests.modulemap"; sourceTree = "<group>"; };
+		6145765DCE1265C8780064A28ACD53B3 /* Pods_KraudeSorceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KraudeSorceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		662BF7D9F557AC9425935F9A211470AD /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		777F615E8416CEC96BE5C53968644230 /* Pods-KraudeSorceTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KraudeSorceTests-resources.sh"; sourceTree = "<group>"; };
+		7A009E7E50DA0A1B5BABECA7EFC6D1EB /* Pods_KraudeSorceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KraudeSorceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DA7CE5EDEE2B0B56F94DC328098FBE3 /* Pods-KraudeSorceTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KraudeSorceTests-frameworks.sh"; sourceTree = "<group>"; };
+		83061D6BF4E5C24478F83175F2B2CEAA /* Pods-KraudeSorce-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KraudeSorce-frameworks.sh"; sourceTree = "<group>"; };
+		85028B71A784784D07636A2E771D7FC9 /* Pods-KraudeSorce-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KraudeSorce-resources.sh"; sourceTree = "<group>"; };
+		87195C650B6DD1A14A18F9EB546816AE /* Pods-KraudeSorceUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KraudeSorceUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8E5FF870D4C5A392648806FAEF4DA42C /* Pods-KraudeSorceUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KraudeSorceUITests-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93FB3861D99CD6616A99D2C3DAC8500C /* Pods-KraudeSorce-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KraudeSorce-umbrella.h"; sourceTree = "<group>"; };
+		9655B9A8A0F40AD128DF4CBCA02C90B1 /* GoogleParsingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleParsingUtilities.framework; path = Frameworks/GoogleParsingUtilities.framework; sourceTree = "<group>"; };
+		A2B0FEDFEA7A1D8661E20F3DAE03C643 /* Pods_KraudeSorce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KraudeSorce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8140D7BB2E45DB546DA39FB85105152 /* Pods-KraudeSorceTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KraudeSorceTests-dummy.m"; sourceTree = "<group>"; };
+		A8D47D5C6C99B4F37D950C1378FE119F /* Pods-KraudeSorce.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KraudeSorce.modulemap"; sourceTree = "<group>"; };
+		B68025FACB7C8D9D8B8EBCD517244D5A /* Pods-KraudeSorceTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KraudeSorceTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B81CD62AAC42B53148C8CB0FD1AAB38D /* Pods-KraudeSorceTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KraudeSorceTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BAC2A2885FCEAFDC5C09B392E3BDDE68 /* Pods-KraudeSorce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KraudeSorce.debug.xcconfig"; sourceTree = "<group>"; };
+		BBC6F2FB2556C157DF5EE716018726B6 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		C15F99FE1CD1C2F7CACD029F566331B5 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		C5FD6B0D0FADFE345EE4C12522AEE235 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		CDA0098BFAE847CB19BD9DFE93EF7769 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D0178B1C0C2AB88196421E58E3E64B21 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D27127EAC56BADB750F9EB4EE2BA4B4F /* Pods-KraudeSorce-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KraudeSorce-dummy.m"; sourceTree = "<group>"; };
+		D49AD3BD1591E1FAC6A468B095EBFCA6 /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
+		D6E3FB269F12BFEB450142B7C3CBE6AF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8573E5D6156829A4E389DD7BA30DE36 /* Pods-KraudeSorceUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KraudeSorceUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D875CD6408E55A31E4000BE4AD5C4E4F /* Pods-KraudeSorceUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KraudeSorceUITests-resources.sh"; sourceTree = "<group>"; };
+		DCFE427941EFFDAAF53DB1F92353D64A /* Pods-KraudeSorceTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KraudeSorceTests-umbrella.h"; sourceTree = "<group>"; };
+		DED8B17B2CCB4AC402C629FA32F4CE20 /* Pods-KraudeSorceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KraudeSorceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E30ECFE3FEC8716E0D30A7E8BD3E27F1 /* Pods-KraudeSorceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KraudeSorceTests.release.xcconfig"; sourceTree = "<group>"; };
+		EEF14DCC9E09F89A216F4D8F7CB1D480 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		F1F90E6B7CB347BFE0FDF1DDEC39E20F /* Pods-KraudeSorce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KraudeSorce.release.xcconfig"; sourceTree = "<group>"; };
+		F2CBF49DF1A3811BFD5EF6BB960BB092 /* Pods-KraudeSorceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KraudeSorceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FAD66B1E7998B2C8ECD712EB601A037C /* Pods-KraudeSorce-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KraudeSorce-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		640E3B22A2CC2E80557A0BA83A4F4774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47386AC2EE32BDBA8F5C2FBEA16DBDD5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6691131114932C340CF47BA3A0E84F1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A375C2D51959CF6B80E2E0F3C84CF7A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5108D0DC7E855F5C573ED7F3037A2CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE548D411855DA0F7B8E1D41C391C3A6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1546ED4A2B55C0A278488955D7688CDA /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				F5D95B9F58DFC78F78E36B6302656AAF /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		197DEF81849371F41EC95DE4ACABC9B1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E73D71AA4285837BF39C8DCF732EDDB2 /* Pods-KraudeSorce */,
+				1FC517C5267FE0BEA25B92BEA63C2FCF /* Pods-KraudeSorceTests */,
+				943AF2B0DC1A6FF6AA16E78C1A9A4C14 /* Pods-KraudeSorceUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1CB6890C5928A0ABD9DF237DB4D6E4BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37E7AEDDB7925A9E39351B87EB4A27CE /* GoogleNetworkingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FC517C5267FE0BEA25B92BEA63C2FCF /* Pods-KraudeSorceTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDA0098BFAE847CB19BD9DFE93EF7769 /* Info.plist */,
+				34C2AC09590661271517AC3FBCE1A8CF /* Pods-KraudeSorceTests.modulemap */,
+				B81CD62AAC42B53148C8CB0FD1AAB38D /* Pods-KraudeSorceTests-acknowledgements.markdown */,
+				B68025FACB7C8D9D8B8EBCD517244D5A /* Pods-KraudeSorceTests-acknowledgements.plist */,
+				A8140D7BB2E45DB546DA39FB85105152 /* Pods-KraudeSorceTests-dummy.m */,
+				7DA7CE5EDEE2B0B56F94DC328098FBE3 /* Pods-KraudeSorceTests-frameworks.sh */,
+				777F615E8416CEC96BE5C53968644230 /* Pods-KraudeSorceTests-resources.sh */,
+				DCFE427941EFFDAAF53DB1F92353D64A /* Pods-KraudeSorceTests-umbrella.h */,
+				F2CBF49DF1A3811BFD5EF6BB960BB092 /* Pods-KraudeSorceTests.debug.xcconfig */,
+				E30ECFE3FEC8716E0D30A7E8BD3E27F1 /* Pods-KraudeSorceTests.release.xcconfig */,
+			);
+			name = "Pods-KraudeSorceTests";
+			path = "Target Support Files/Pods-KraudeSorceTests";
+			sourceTree = "<group>";
+		};
+		21A2C8BC661C678B137E3A3D2B8BD254 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				E74246C4A74C8411630C6ECF322475BD /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		254CC2549EC5EFDA48F0A788DA320609 /* GoogleNetworkingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				1CB6890C5928A0ABD9DF237DB4D6E4BC /* Frameworks */,
+			);
+			path = GoogleNetworkingUtilities;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3EBD847980D8150946E7D7C39E2D8CB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				436F8DCC5AF3C7285EF5258E722953E4 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CE51720A521314D5E46F1780D087B05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5FD6B0D0FADFE345EE4C12522AEE235 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5010F559BAF4B581A2D0BBAD609AC228 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				F4B98E5E3A1387EBDD1948BCA6E6C05A /* Analytics */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		6EBA67C730923027B77F6CC4FEE999B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AD1568E830A0DBD6CA6DCD4EEB8261D /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		732B7AC4B7BF5A35D30561E0DC7F356E /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				6EBA67C730923027B77F6CC4FEE999B3 /* Frameworks */,
+			);
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		7AFEFA9CAC2E0695A643A6FE109745CB /* FirebaseAuth */ = {
+			isa = PBXGroup;
+			children = (
+				CB440934A214E7B1A28A640A5178B5CF /* Frameworks */,
+			);
+			path = FirebaseAuth;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				DFAEE58E41FEB79E2A095B402D1F99FA /* Pods */,
+				EAB78ED17CCC6C82C94779366CC2D857 /* Products */,
+				197DEF81849371F41EC95DE4ACABC9B1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8CE86DD4F8BA2FDE545816D21D94DC79 /* GoogleParsingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				A3F18049928ABBBC6BB92196EFADD047 /* Frameworks */,
+			);
+			path = GoogleParsingUtilities;
+			sourceTree = "<group>";
+		};
+		943AF2B0DC1A6FF6AA16E78C1A9A4C14 /* Pods-KraudeSorceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6E3FB269F12BFEB450142B7C3CBE6AF /* Info.plist */,
+				446521F3D664ADF253EA8F532C87F622 /* Pods-KraudeSorceUITests.modulemap */,
+				87195C650B6DD1A14A18F9EB546816AE /* Pods-KraudeSorceUITests-acknowledgements.markdown */,
+				D8573E5D6156829A4E389DD7BA30DE36 /* Pods-KraudeSorceUITests-acknowledgements.plist */,
+				160437CB827370FA55DBE63BDD632003 /* Pods-KraudeSorceUITests-dummy.m */,
+				3F3591C778989014C56506C4EDDFA5BC /* Pods-KraudeSorceUITests-frameworks.sh */,
+				D875CD6408E55A31E4000BE4AD5C4E4F /* Pods-KraudeSorceUITests-resources.sh */,
+				8E5FF870D4C5A392648806FAEF4DA42C /* Pods-KraudeSorceUITests-umbrella.h */,
+				DED8B17B2CCB4AC402C629FA32F4CE20 /* Pods-KraudeSorceUITests.debug.xcconfig */,
+				03CF5B5D03AD8008F5B0CE5F205ED84D /* Pods-KraudeSorceUITests.release.xcconfig */,
+			);
+			name = "Pods-KraudeSorceUITests";
+			path = "Target Support Files/Pods-KraudeSorceUITests";
+			sourceTree = "<group>";
+		};
+		99809E3440D851732861B083AEE89981 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				662BF7D9F557AC9425935F9A211470AD /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A33177A3F1C140BB331FE267B0360B55 /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				4CE51720A521314D5E46F1780D087B05 /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		A3F18049928ABBBC6BB92196EFADD047 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9655B9A8A0F40AD128DF4CBCA02C90B1 /* GoogleParsingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB351A2697C4022AF169A57032BAFB57 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				EEF14DCC9E09F89A216F4D8F7CB1D480 /* FIRInstanceID.h */,
+				3EBD847980D8150946E7D7C39E2D8CB2 /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB440934A214E7B1A28A640A5178B5CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D49AD3BD1591E1FAC6A468B095EBFCA6 /* FirebaseAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D38544B74C25B9DD6F972E44B6D2B347 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				99809E3440D851732861B083AEE89981 /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		DFAEE58E41FEB79E2A095B402D1F99FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5010F559BAF4B581A2D0BBAD609AC228 /* Firebase */,
+				1546ED4A2B55C0A278488955D7688CDA /* FirebaseAnalytics */,
+				7AFEFA9CAC2E0695A643A6FE109745CB /* FirebaseAuth */,
+				732B7AC4B7BF5A35D30561E0DC7F356E /* FirebaseDatabase */,
+				AB351A2697C4022AF169A57032BAFB57 /* FirebaseInstanceID */,
+				A33177A3F1C140BB331FE267B0360B55 /* GoogleInterchangeUtilities */,
+				254CC2549EC5EFDA48F0A788DA320609 /* GoogleNetworkingUtilities */,
+				8CE86DD4F8BA2FDE545816D21D94DC79 /* GoogleParsingUtilities */,
+				D38544B74C25B9DD6F972E44B6D2B347 /* GoogleSymbolUtilities */,
+				21A2C8BC661C678B137E3A3D2B8BD254 /* GoogleUtilities */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E73D71AA4285837BF39C8DCF732EDDB2 /* Pods-KraudeSorce */ = {
+			isa = PBXGroup;
+			children = (
+				D0178B1C0C2AB88196421E58E3E64B21 /* Info.plist */,
+				A8D47D5C6C99B4F37D950C1378FE119F /* Pods-KraudeSorce.modulemap */,
+				FAD66B1E7998B2C8ECD712EB601A037C /* Pods-KraudeSorce-acknowledgements.markdown */,
+				391933BC928204135091054CD6630F32 /* Pods-KraudeSorce-acknowledgements.plist */,
+				D27127EAC56BADB750F9EB4EE2BA4B4F /* Pods-KraudeSorce-dummy.m */,
+				83061D6BF4E5C24478F83175F2B2CEAA /* Pods-KraudeSorce-frameworks.sh */,
+				85028B71A784784D07636A2E771D7FC9 /* Pods-KraudeSorce-resources.sh */,
+				93FB3861D99CD6616A99D2C3DAC8500C /* Pods-KraudeSorce-umbrella.h */,
+				BAC2A2885FCEAFDC5C09B392E3BDDE68 /* Pods-KraudeSorce.debug.xcconfig */,
+				F1F90E6B7CB347BFE0FDF1DDEC39E20F /* Pods-KraudeSorce.release.xcconfig */,
+			);
+			name = "Pods-KraudeSorce";
+			path = "Target Support Files/Pods-KraudeSorce";
+			sourceTree = "<group>";
+		};
+		E74246C4A74C8411630C6ECF322475BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C15F99FE1CD1C2F7CACD029F566331B5 /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAB78ED17CCC6C82C94779366CC2D857 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2B0FEDFEA7A1D8661E20F3DAE03C643 /* Pods_KraudeSorce.framework */,
+				6145765DCE1265C8780064A28ACD53B3 /* Pods_KraudeSorceTests.framework */,
+				7A009E7E50DA0A1B5BABECA7EFC6D1EB /* Pods_KraudeSorceUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4B98E5E3A1387EBDD1948BCA6E6C05A /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				38F943FF5B41EE77F6C520CFC87FA49B /* Firebase.h */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		F5D95B9F58DFC78F78E36B6302656AAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBC6F2FB2556C157DF5EE716018726B6 /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2DF337E43668A8DEEA6A8F49D8C80F22 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170DEBA0805779F6F2EA714C1C451F5C /* Pods-KraudeSorce-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92D965BF7CA7433C4CCCCE469C479372 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8894A54822E7CD350BBC1A318C4E4A76 /* Pods-KraudeSorceTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9985B1FAEEDB4BA0F516538800B7FA0A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CB2D8C5F2FD67C42EB31586D800C6CE /* Pods-KraudeSorceUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		253F14A8CD0283897EFBDB988595AA4B /* Pods-KraudeSorceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 946E71D72AD59C22C2BECA4B915D61C1 /* Build configuration list for PBXNativeTarget "Pods-KraudeSorceTests" */;
+			buildPhases = (
+				AED52C3CF32385DA068165F5393A76D0 /* Sources */,
+				D5108D0DC7E855F5C573ED7F3037A2CB /* Frameworks */,
+				92D965BF7CA7433C4CCCCE469C479372 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KraudeSorceTests";
+			productName = "Pods-KraudeSorceTests";
+			productReference = 6145765DCE1265C8780064A28ACD53B3 /* Pods_KraudeSorceTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8DE4A8F977214DBD9EF729D630CEAF23 /* Pods-KraudeSorce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06B56289010CC56632E13664EF79BF1A /* Build configuration list for PBXNativeTarget "Pods-KraudeSorce" */;
+			buildPhases = (
+				BFAC689531A3EA532129A352420AA31B /* Sources */,
+				640E3B22A2CC2E80557A0BA83A4F4774 /* Frameworks */,
+				2DF337E43668A8DEEA6A8F49D8C80F22 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KraudeSorce";
+			productName = "Pods-KraudeSorce";
+			productReference = A2B0FEDFEA7A1D8661E20F3DAE03C643 /* Pods_KraudeSorce.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FC6D859D6539B8FC0F86CA07DBF97555 /* Pods-KraudeSorceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D85462548959ECEF152B6AD1FA32C63F /* Build configuration list for PBXNativeTarget "Pods-KraudeSorceUITests" */;
+			buildPhases = (
+				69518C0FE00F341EA7B425A708A97BF0 /* Sources */,
+				6691131114932C340CF47BA3A0E84F1C /* Frameworks */,
+				9985B1FAEEDB4BA0F516538800B7FA0A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KraudeSorceUITests";
+			productName = "Pods-KraudeSorceUITests";
+			productReference = 7A009E7E50DA0A1B5BABECA7EFC6D1EB /* Pods_KraudeSorceUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EAB78ED17CCC6C82C94779366CC2D857 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DE4A8F977214DBD9EF729D630CEAF23 /* Pods-KraudeSorce */,
+				253F14A8CD0283897EFBDB988595AA4B /* Pods-KraudeSorceTests */,
+				FC6D859D6539B8FC0F86CA07DBF97555 /* Pods-KraudeSorceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69518C0FE00F341EA7B425A708A97BF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F215AC807B87C6BC37D2A0F9E2F69B0A /* Pods-KraudeSorceUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AED52C3CF32385DA068165F5393A76D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0625FB15EE4D1F5F3B1F9FF6B724BC0D /* Pods-KraudeSorceTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAC689531A3EA532129A352420AA31B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790D5BF0E6BBF6B3D4623C6DAF9CF438 /* Pods-KraudeSorce-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1CA1BE802C8D4492904E843AD56D3CE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1F90E6B7CB347BFE0FDF1DDEC39E20F /* Pods-KraudeSorce.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KraudeSorce/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KraudeSorce/Pods-KraudeSorce.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KraudeSorce;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5FE7709BB253E8BC85E7CDD72BD1C23C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DED8B17B2CCB4AC402C629FA32F4CE20 /* Pods-KraudeSorceUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KraudeSorceUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KraudeSorceUITests/Pods-KraudeSorceUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KraudeSorceUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71D380EC3DD9C656DC9E655686CC14C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAC2A2885FCEAFDC5C09B392E3BDDE68 /* Pods-KraudeSorce.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KraudeSorce/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KraudeSorce/Pods-KraudeSorce.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KraudeSorce;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8AF35724F854A3798DE375156EFBDA9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2CBF49DF1A3811BFD5EF6BB960BB092 /* Pods-KraudeSorceTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KraudeSorceTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KraudeSorceTests/Pods-KraudeSorceTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KraudeSorceTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2109C5BBDD9143D457613F0ADD258A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03CF5B5D03AD8008F5B0CE5F205ED84D /* Pods-KraudeSorceUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KraudeSorceUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KraudeSorceUITests/Pods-KraudeSorceUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KraudeSorceUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F6B3C1650343E9112104D7CE6D250404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E30ECFE3FEC8716E0D30A7E8BD3E27F1 /* Pods-KraudeSorceTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KraudeSorceTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KraudeSorceTests/Pods-KraudeSorceTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KraudeSorceTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06B56289010CC56632E13664EF79BF1A /* Build configuration list for PBXNativeTarget "Pods-KraudeSorce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71D380EC3DD9C656DC9E655686CC14C0 /* Debug */,
+				1CA1BE802C8D4492904E843AD56D3CE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		946E71D72AD59C22C2BECA4B915D61C1 /* Build configuration list for PBXNativeTarget "Pods-KraudeSorceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AF35724F854A3798DE375156EFBDA9C /* Debug */,
+				F6B3C1650343E9112104D7CE6D250404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D85462548959ECEF152B6AD1FA32C63F /* Build configuration list for PBXNativeTarget "Pods-KraudeSorceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE7709BB253E8BC85E7CDD72BD1C23C /* Debug */,
+				E2109C5BBDD9143D457613F0ADD258A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_KraudeSorceTests {
+  umbrella header "Pods-KraudeSorceTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
