@@ -12,10 +12,10 @@ import Firebase
 
 class HomePageViewController: UIViewController, CLLocationManagerDelegate {
     
+    @IBOutlet weak var holmesCount: UILabel!
     let locationManager = CLLocationManager()
     var user : User!
-    let ref = FIRDatabase.database().referenceWithPath("count")
-//    var holmesRegion: CLRegion!
+    var ref = FIRDatabase.database().reference()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,8 +23,18 @@ class HomePageViewController: UIViewController, CLLocationManagerDelegate {
         locationManager.requestAlwaysAuthorization()
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
         locationManager.startUpdatingLocation()
-        let holmesRegion = CLCircularRegion(center: CLLocationCoordinate2D(latitude: 38.648155,longitude: -90.306414), radius: 200, identifier: "holmes")
+        let holmesRegion = CLCircularRegion(center: CLLocationCoordinate2D(latitude: 38.648155,longitude: -90.306414), radius: 20, identifier: "holmes")
+        let ducRegion = CLCircularRegion(center: CLLocationCoordinate2D(latitude: 38.647950,longitude: -90.310592), radius: 15, identifier: "duc")
+        
         locationManager.startMonitoringForRegion(holmesRegion)
+        locationManager.startMonitoringForRegion(ducRegion)
+        ref.observeEventType(.Value, withBlock: { snapshot in
+            let val = snapshot.value as? Int
+//            if (val == nil){
+//                val = 0;
+//            }
+            self.holmesCount.text = String(val)
+        })
         
         FIRAuth.auth()?.addAuthStateDidChangeListener{ auth, user in
             guard let user = user else { return }
@@ -37,39 +47,36 @@ class HomePageViewController: UIViewController, CLLocationManagerDelegate {
         // Dispose of any resources that can be recreated.
     }
     
-//    func locationManager(manager: CLLocationManager,
-//                                    didUpdateLocations locations: [CLLocation]){
-//        let currentLocation = locations[0]
-//        let lat = currentLocation.coordinate.latitude
-//        let long = currentLocation.coordinate.longitude
-//        let inHolmes = self.isInHolmes(lat, longitude: long)
-//        print(inHolmes)
-//    }
-    
-//    func isInHolmes(latitude: CLLocationDegrees, longitude: CLLocationDegrees) -> Bool {
-//        return (latitude > 38) && (latitude < 39) && (longitude < (-90)) && (longitude > (-91))
-//    }
-    
     func locationManager(manager: CLLocationManager, didFailWithError error: NSError) {
         print(error)
     }
     
     func locationManager(manager: CLLocationManager, didEnterRegion region: CLRegion) {
+        let locationRef = ref.child("locations/\(region.identifier)")
+        NSLog("\(locationRef.description()), \(ref.description())")
         self.view.backgroundColor = UIColor.greenColor()
-        ref.setValue(1)
+        self.updateLocationCount(locationRef, region: region, diff: 1)
     }
     
     func locationManager(manager: CLLocationManager, didExitRegion region: CLRegion) {
+        let locationRef = ref.child("locations/\(region.identifier)")
+        NSLog("\(locationRef.description()), \(ref.description())")
         self.view.backgroundColor = UIColor.redColor()
-        
+        self.updateLocationCount(locationRef, region: region, diff: -1)
+    }
+    
+    func updateLocationCount(ref: FIRDatabaseReference, region: CLRegion, diff: Int){
         ref.runTransactionBlock({ (currentData: FIRMutableData) -> FIRTransactionResult in
-            var count = currentData.value as! Int
-            count += 1
-            currentData = count
+            var count = currentData.value as? Int
+            //not sure if this block is necessary
+            if (count == nil){
+                count = 0;
+            }
+            currentData.value = count! + diff
             return FIRTransactionResult.successWithValue(currentData)
         })
-        ref.setValue(0)
     }
+
     
     func locationManager(manager: CLLocationManager, monitoringDidFailForRegion region: CLRegion?, withError error: NSError) {
         print("\(error)")
