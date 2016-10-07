@@ -10,7 +10,7 @@ import UIKit
 import CoreLocation
 import Firebase
 
-class HomePageViewController: UIViewController, CLLocationManagerDelegate {
+class HomePageViewController: UITableViewController, CLLocationManagerDelegate {
     
     @IBOutlet weak var holmesCount: UILabel!
     let locationManager = CLLocationManager()
