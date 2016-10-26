@@ -10,15 +10,18 @@ import UIKit
 import CoreLocation
 import Firebase
 
-class HomePageViewController: UITableViewController, CLLocationManagerDelegate {
+class HomePageTableViewController: UITableViewController, CLLocationManagerDelegate {
     
     @IBOutlet weak var holmesCount: UILabel!
     let locationManager = CLLocationManager()
     var user : User!
     var ref = FIRDatabase.database().reference()
+    var locations = ["holmes","duc"]
+    let cellIdentifier = "locationCell"
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Locations"
         locationManager.delegate = self
         locationManager.requestAlwaysAuthorization()
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
@@ -28,23 +31,18 @@ class HomePageViewController: UITableViewController, CLLocationManagerDelegate {
         
         locationManager.startMonitoringForRegion(holmesRegion)
         locationManager.startMonitoringForRegion(ducRegion)
-        ref.observeEventType(.Value, withBlock: { snapshot in
-            let val = snapshot.value as? Int
+//        ref.observeEventType(.Value, withBlock: { snapshot in
+//            let val = snapshot.value as? Int
 //            if (val == nil){
 //                val = 0;
 //            }
-            self.holmesCount.text = String(val)
-        })
+//            self.holmesCount.text = String(val)
+//        })
         
         FIRAuth.auth()?.addAuthStateDidChangeListener{ auth, user in
             guard let user = user else { return }
             self.user = User(authData: user)
         }
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     func locationManager(manager: CLLocationManager, didFailWithError error: NSError) {
@@ -76,10 +74,29 @@ class HomePageViewController: UITableViewController, CLLocationManagerDelegate {
             return FIRTransactionResult.successWithValue(currentData)
         })
     }
-
     
     func locationManager(manager: CLLocationManager, monitoringDidFailForRegion region: CLRegion?, withError error: NSError) {
         print("\(error)")
+    }
+    
+    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return self.locations.count
+    }
+    
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath)
+        let location = locations[indexPath.row]
+        cell.textLabel?.text = location
+        return cell
+    }
+    
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        self.performSegueWithIdentifier("locationDetails", sender: self)
+        tableView.deselectRowAtIndexPath(indexPath, animated: true)
     }
 
     /*

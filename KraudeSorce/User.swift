@@ -14,8 +14,8 @@ class User {
     let email : String
     
     init(authData: FIRUser){
-        uid = authData.uid
-        email = authData.email!
+        self.uid = authData.uid
+        self.email = authData.email!
     }
     
     init(uid: String, email: String){

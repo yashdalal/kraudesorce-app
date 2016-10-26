@@ -10,13 +10,76 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "KraudeSorce/HomePageViewController.swift"
-            timestampString = "496956730.925254"
+            timestampString = "497682351.307675"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
             landmarkName = "viewDidLoad()"
             landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KraudeSorce/DiningHallViewController.swift"
+            timestampString = "497687321.890858"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "DiningHallViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KraudeSorce.DiningHallViewController.__deallocating_deinit"
+                  moduleName = "KraudeSorce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yashdalal/Documents/KraudeSorce/KraudeSorce/DiningHallViewController.swift"
+                  timestampString = "497687323.102881"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KraudeSorce.DiningHallViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; KraudeSorce.DiningHallViewController"
+                  moduleName = "KraudeSorce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yashdalal/Documents/KraudeSorce/KraudeSorce/DiningHallViewController.swift"
+                  timestampString = "497687323.115842"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "107">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KraudeSorce.DiningHallViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;KraudeSorce.DiningHallViewController&gt;"
+                  moduleName = "KraudeSorce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yashdalal/Documents/KraudeSorce/KraudeSorce/DiningHallViewController.swift"
+                  timestampString = "497687323.116055"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "105">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
