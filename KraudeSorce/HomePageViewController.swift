@@ -96,6 +96,7 @@ class HomePageTableViewController: UITableViewController, CLLocationManagerDeleg
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         self.performSegueWithIdentifier("locationDetails", sender: self)
+       
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
     }
 
