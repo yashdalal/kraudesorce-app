@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/yashdalal/Documents/KraudeSorce/Holmes Lounge.gpx">
+      location = "group:Holmes Lounge.gpx">
    </FileRef>
    <FileRef
       location = "group:Danforth University Center.gpx">

@@ -18,12 +18,15 @@ class DiningHallViewController: UIViewController {
     let notificationsKey = "notificationsKey"
     let switchKey = "switchKey"
     
+    @IBOutlet weak var picture: UIImageView!
     @IBOutlet weak var crowdedLabel: UILabel!
     //ROSS CODE FOR GRAPH
     
+    @IBOutlet weak var diningLabel: UILabel!
     @IBOutlet weak var lineChart: LineChartView!
     var ref = FIRDatabase.database().reference()
     var day: Int = 0
+    var hall: String! = nil
     var times: NSDictionary = NSDictionary()
     var crowdtimes: [String] = []
     var crowddata: [Double] = []
@@ -35,9 +38,19 @@ class DiningHallViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        if(hall == "duc"){
+            diningLabel.text = "DUC"
+            picture.image = UIImage(named: "edu_washudanforth_03.jpg")
+        }
+        else if (hall=="holmes"){
+            diningLabel.text = "Holmes Lounge"
+            picture.image = UIImage(named: "0a9d29065910eae94ff5cca0d2157541.jpg")
+        }
+        
         notificationSwitch.addTarget(self, action: #selector(DiningHallViewController.switchIsChanged(_:)), forControlEvents: UIControlEvents.ValueChanged)
         createChart()
         compareCrowdedness()
+        //diningLabel
 //        location = ""
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -112,21 +125,20 @@ class DiningHallViewController: UIViewController {
 //ROSS CODE FOR CHARTS STARTS HERE -- GET READY FOR A WILD RIDE
     func compareCrowdedness(){
         
-        ref.observeEventType(.Value, withBlock: { snapshot in
-        self.currentCrowdedNess = snapshot.value!.objectForKey("count")!.objectForKey("locations")!.objectForKey("duc") as! Int
+        /*ref.observeEventType(.Value, withBlock: { snapshot in
+        self.currentCrowdedNess = snapshot.value!.objectForKey("locations")!.objectForKey(self.hall) as! Int
         })
+        */
         ref.observeEventType(.Value, withBlock: { snapshot in
-            self.pastCrowdedness = snapshot.value!.objectForKey("predictedtimes")!.objectForKey("duc")!.objectForKey("Wednesday")?.objectForKey("13:00") as! Int
+            self.currentCrowdedNess = snapshot.value!.objectForKey("locations")!.objectForKey(self.hall) as! Int
+            self.pastCrowdedness = snapshot.value!.objectForKey("predictedtimes")!.objectForKey(self.hall)!.objectForKey("Wednesday")?.objectForKey("13:00") as! Int
+            if(self.currentCrowdedNess > self.pastCrowdedness){
+                self.crowdedLabel.text = "More crowded than ususal"
+            }
+            else{
+                self.crowdedLabel.text = "less crowded than usual"
+            }
         })
-        
-        if(currentCrowdedNess > pastCrowdedness){
-            crowdedLabel.text = "More crowded than ususal"
-        }
-        else{
-            crowdedLabel.text = "less crowded than usual"
-        }
-        
-      
         
     }
     
@@ -147,7 +159,7 @@ class DiningHallViewController: UIViewController {
         let weekday = convertWeekday(day)
         ref.observeEventType(.Value, withBlock: { snapshot in
             //print(snapshot.value!.objectForKey("predictions")!.objectForKey(weekday))
-            self.times = snapshot.value!.objectForKey("predictedtimes")!.objectForKey("duc")!.objectForKey(weekday) as! NSDictionary
+            self.times = snapshot.value!.objectForKey("predictedtimes")!.objectForKey(self.hall!)!.objectForKey(weekday) as! NSDictionary
             self.crowdtimes = self.times.allKeys as! [String]
             let sortedTimes = self.crowdtimes.sort()
             for item in sortedTimes{
